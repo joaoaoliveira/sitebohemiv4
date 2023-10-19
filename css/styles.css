@@ -1,53 +1,55 @@
 /* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
-    /* Reduza o tamanho da fonte do cabeçalho */
-    h1 {
-        font-size: 24px;
-    }
+  /* Reposicione os itens do menu na parte superior */
+  .navbar-nav {
+      flex-direction: row;
+      justify-content: space-between;
+  }
 
-    /* Ajuste o tamanho da imagem no cabeçalho */
-    #fraseHeader img {
-        width: 100px;
-    }
+  /* Ajuste o tamanho da fonte para os links do menu */
+  .nav-link {
+      font-size: 16px;
+      margin-right: 20px; /* Espaço entre os itens do menu */
+  }
 
-    /* Reduza o tamanho da fonte para os ícones */
-    .icones {
-        width: 24px;
-        height: 24px;
-    }
+  /* Reduza o tamanho da fonte para os ícones */
+  .icones {
+      width: 24px;
+      height: 24px;
+  }
 
-    /* Adapte a navegação para ocupar menos espaço vertical */
-    .navbar-nav {
-        flex-direction: row; /* Alinhar os itens na horizontal */
-        justify-content: space-between; /* Espaço uniforme entre os itens */
-    }
+  /* Adapte a navegação para ocupar menos espaço vertical */
+  .navbar-nav {
+      flex-direction: row; /* Alinhar os itens na horizontal */
+      justify-content: space-between; /* Espaço uniforme entre os itens */
+  }
 
-    /* Ajuste o tamanho da fonte para os links da navegação */
-    .nav-link {
-        font-size: 16px;
-        margin-right: 20px; /* Espaçamento entre os itens do menu */
-    }
+  /* Ajuste o tamanho da fonte para os links da navegação */
+  .nav-link {
+      font-size: 16px;
+      margin-right: 20px; /* Espaçamento entre os itens do menu */
+  }
 }
 
 /* Estilos para todos os dispositivos */
 /* Ajuste o tamanho da fonte para o cabeçalho */
 h1 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 /* Estilos para a seção de fotosHeader */
 #fotosHeader {
-    margin-top: 20px; /* Espaço superior entre a navegação e a seção de fotosHeader */
+  margin-top: 20px; /* Espaço superior entre a navegação e a seção de fotosHeader */
 }
 
 /* Ajuste o tamanho da fonte para os títulos de cartão */
 .card-title {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /* Adapte o espaçamento entre os cartões em dispositivos móveis */
 @media (max-width: 768px) {
-    .card {
-        margin-bottom: 20px; /* Espaçamento inferior entre os cartões */
-    }
+  .card {
+      margin-bottom: 20px; /* Espaçamento inferior entre os cartões */
+  }
 }
